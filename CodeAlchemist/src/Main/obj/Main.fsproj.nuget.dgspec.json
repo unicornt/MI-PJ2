@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Main/Main.fsproj": {}
+  },
+  "projects": {
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj",
+        "projectName": "AST",
+        "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj",
+        "packagesPath": "/home/bz/.nuget/packages/",
+        "outputPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj",
+        "projectName": "Analyzer",
+        "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj",
+        "packagesPath": "/home/bz/.nuget/packages/",
+        "outputPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj",
+        "projectName": "Common",
+        "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj",
+        "packagesPath": "/home/bz/.nuget/packages/",
+        "outputPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[2.4.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/Fuzzer.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/Fuzzer.fsproj",
+        "projectName": "Fuzzer",
+        "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/Fuzzer.fsproj",
+        "packagesPath": "/home/bz/.nuget/packages/",
+        "outputPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Main/Main.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Main/Main.fsproj",
+        "projectName": "Main",
+        "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Main/Main.fsproj",
+        "packagesPath": "/home/bz/.nuget/packages/",
+        "outputPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Main/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/AST/AST.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Analyzer/Analyzer.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Common/Common.fsproj"
+              },
+              "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/Fuzzer.fsproj": {
+                "projectPath": "/home/bz/unicornt/MI-PJ/CodeAlchemist/src/Fuzzer/Fuzzer.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "OptParse": {
+              "target": "Package",
+              "version": "[0.4.6, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

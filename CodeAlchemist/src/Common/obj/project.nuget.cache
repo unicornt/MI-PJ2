@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E1T03gOR/Exx3tNsy4tGXOLebE1NoTvpjQ+YKZ8QeT125oMbhfZv2czkCDG+aD2OWCypeLjddKZJc6e5A4kDqg==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/unicornt/Desktop/0/MI-PJ/CodeAlchemist/src/Common/Common.fsproj",
+  "expectedPackageFiles": [
+    "/home/unicornt/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/fsharp.data/2.4.6/fsharp.data.2.4.6.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

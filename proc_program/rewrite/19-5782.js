@@ -1,0 +1,51 @@
+import * as std from 'std';
+std.loadScript('/home/bz/unicornt/MI-PJ/CodeAlchemist/bin/jsLib/QUICKJS.js');
+codealchemist_log_type_pre('458037894751017514', ({}));
+function opt(arg){
+codealchemist_log_type_pre('5415298792001144278', ({v1 : ((typeof arguments) != ('undefined')) ? (arguments) : (undefined)}));
+let x = arguments.length;
+codealchemist_log_type_post('5415298792001144278', ({v1 : ((typeof arguments) != ('undefined')) ? (arguments) : (undefined), v0 : ((typeof x) != ('undefined')) ? (x) : (undefined)}));
+codealchemist_log_type_pre('-3725306726351326090', ({}));
+(a1) = new Array(0x10);
+codealchemist_log_type_post('-3725306726351326090', ({v0 : ((typeof a1) != ('undefined')) ? (a1) : (undefined)}));
+codealchemist_log_type_pre('-3906144733329676076', ({}));
+(a2) = new Array(2);
+codealchemist_log_type_post('-3906144733329676076', ({v0 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+codealchemist_log_type_pre('8301450238700238314', ({v0 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+(a2[0]) = 1.1;
+codealchemist_log_type_post('8301450238700238314', ({v0 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+codealchemist_log_type_pre('4233226886654483332', ({v0 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+(a2[1]) = 1.1;
+codealchemist_log_type_post('4233226886654483332', ({v0 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+codealchemist_log_type_pre('1615880064586766046', ({v0 : ((typeof a1) != ('undefined')) ? (a1) : (undefined), v1 : ((typeof x) != ('undefined')) ? (x) : (undefined)}));
+(a1[((x) >> (16)) * (0xf00000)]) = 1.39064994160909e-309;
+codealchemist_log_type_post('1615880064586766046', ({v0 : ((typeof a1) != ('undefined')) ? (a1) : (undefined), v1 : ((typeof x) != ('undefined')) ? (x) : (undefined)}));
+}
+codealchemist_log_type_post('458037894751017514', ({}));
+codealchemist_log_type_pre('-460879813751875261', ({}));
+var a1, a2;
+codealchemist_log_type_post('-460879813751875261', ({v0 : ((typeof a1) != ('undefined')) ? (a1) : (undefined), v1 : ((typeof a2) != ('undefined')) ? (a2) : (undefined)}));
+codealchemist_log_type_pre('-7619666865260496585', ({}));
+let small = [];
+codealchemist_log_type_post('-7619666865260496585', ({v0 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+codealchemist_log_type_pre('-7619666865260496585', ({}));
+let large = [];
+codealchemist_log_type_post('-7619666865260496585', ({v0 : ((typeof large) != ('undefined')) ? (large) : (undefined)}));
+codealchemist_log_type_pre('1937197216160897015', ({v0 : ((typeof large) != ('undefined')) ? (large) : (undefined)}));
+(large.length) = 65536;
+codealchemist_log_type_post('1937197216160897015', ({v0 : ((typeof large) != ('undefined')) ? (large) : (undefined)}));
+codealchemist_log_type_pre('-4428113637057095179', ({v0 : ((typeof large) != ('undefined')) ? (large) : (undefined)}));
+large.fill(1.1);
+codealchemist_log_type_post('-4428113637057095179', ({v0 : ((typeof large) != ('undefined')) ? (large) : (undefined)}));
+codealchemist_log_type_pre('-510122932301557233', ({v1 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v2 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+for(let j = 0;(j) < (100000);j++){
+codealchemist_log_type_pre('7131587702650268504', ({v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v1 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+codealchemist_log_type_pre('-7116980939018596457', ({v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v1 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+opt.apply(null, small);
+codealchemist_log_type_post('-7116980939018596457', ({v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v1 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+codealchemist_log_type_post('7131587702650268504', ({v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v1 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+}
+codealchemist_log_type_post('-510122932301557233', ({v0 : ((typeof j) != ('undefined')) ? (j) : (undefined), v1 : ((typeof opt) != ('undefined')) ? (opt) : (undefined), v2 : ((typeof small) != ('undefined')) ? (small) : (undefined)}));
+codealchemist_log_type_pre('-7116980939018596457', ({v1 : ((typeof large) != ('undefined')) ? (large) : (undefined), v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined)}));
+opt.apply(null, large);
+codealchemist_log_type_post('-7116980939018596457', ({v1 : ((typeof large) != ('undefined')) ? (large) : (undefined), v0 : ((typeof opt) != ('undefined')) ? (opt) : (undefined)}));

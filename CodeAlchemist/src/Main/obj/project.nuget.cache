@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "zFF6CRzdL2VZ3sIMhYwRU2e4eZI/Mi//hiXl9qlk6a7lhDmFn2ALWlAQsFvOhOxxyGq17ZRsIXklPKzO7jatng==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/unicornt/Desktop/0/MI-PJ/CodeAlchemist/src/Main/Main.fsproj",
+  "expectedPackageFiles": [
+    "/home/unicornt/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/fsharp.data/2.4.6/fsharp.data.2.4.6.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/unicornt/.nuget/packages/optparse/0.4.6/optparse.0.4.6.nupkg.sha512"
+  ],
+  "logs": []
+}

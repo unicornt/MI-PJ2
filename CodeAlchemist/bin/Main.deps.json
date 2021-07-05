@@ -1,0 +1,185 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "70a285b1d32e682d90bd912546b5fde4ecc4f429"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Main/1.0.0": {
+        "dependencies": {
+          "AST": "1.0.0",
+          "Analyzer": "1.0.0",
+          "Common": "1.0.0",
+          "FSharp.Core": "4.6.2",
+          "Fuzzer": "1.0.0",
+          "OptParse": "0.4.6"
+        },
+        "runtime": {
+          "Main.dll": {}
+        }
+      },
+      "FSharp.Core/4.6.2": {
+        "runtime": {
+          "lib/netstandard1.6/FSharp.Core.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "2019.2.13.3"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.6/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard1.6/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.6/en/FSharp.Core.resources.dll": {
+            "locale": "en"
+          },
+          "lib/netstandard1.6/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.6/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.6/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.6/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.6/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.6/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard1.6/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard1.6/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.6/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data/2.4.6": {
+        "dependencies": {
+          "FSharp.Core": "4.6.2"
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {
+            "assemblyVersion": "2.4.6.0",
+            "fileVersion": "2.4.6.0"
+          }
+        }
+      },
+      "OptParse/0.4.6": {
+        "dependencies": {
+          "FSharp.Core": "4.6.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OptParse.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Analyzer/1.0.0": {
+        "dependencies": {
+          "AST": "1.0.0",
+          "Common": "1.0.0",
+          "FSharp.Core": "4.6.2"
+        },
+        "runtime": {
+          "Analyzer.dll": {}
+        }
+      },
+      "AST/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0",
+          "FSharp.Core": "4.6.2"
+        },
+        "runtime": {
+          "AST.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "4.6.2",
+          "FSharp.Data": "2.4.6"
+        },
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "Fuzzer/1.0.0": {
+        "dependencies": {
+          "AST": "1.0.0",
+          "Analyzer": "1.0.0",
+          "Common": "1.0.0",
+          "FSharp.Core": "4.6.2"
+        },
+        "runtime": {
+          "Fuzzer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharp.Core/4.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/waJ3a7u7MjFOGnXOfokbG1N1FH7VCmP3Fw1tJ8Q75kIj60LYBL3eYzab9hDimL5E21uhQ/1wf04M3dRAYemlw==",
+      "path": "fsharp.core/4.6.2",
+      "hashPath": "fsharp.core.4.6.2.nupkg.sha512"
+    },
+    "FSharp.Data/2.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eAuuYTZiLPw8j4LlqnxEokvN+QBs9H/JuYNidpmXzYWopb9wkB/DGDFtbygUMkmDgWoCrUSgUQ6A0vCqcsxV0g==",
+      "path": "fsharp.data/2.4.6",
+      "hashPath": "fsharp.data.2.4.6.nupkg.sha512"
+    },
+    "OptParse/0.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhor+TB7OSqgVmX6GYc5T6E11WbadAW3cu28pxUIQcrBxoRsH4oRt7/cNX6V6zZJT+aGun1oK43ExNLDUn70DQ==",
+      "path": "optparse/0.4.6",
+      "hashPath": "optparse.0.4.6.nupkg.sha512"
+    },
+    "Analyzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fuzzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

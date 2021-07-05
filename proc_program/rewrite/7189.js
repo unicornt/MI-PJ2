@@ -1,0 +1,40 @@
+import * as std from 'std';
+std.loadScript('/home/bz/unicornt/MI-PJ/CodeAlchemist/bin/jsLib/QUICKJS.js');
+codealchemist_log_type_pre('569212392801241871', ({}));
+var t = new Array(1, 2, 3);
+codealchemist_log_type_post('569212392801241871', ({v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('-6901960133310591015', ({v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+(t.length) = 100;
+codealchemist_log_type_post('-6901960133310591015', ({v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('-2256249072298133429', ({}));
+var o = ({});
+codealchemist_log_type_post('-2256249072298133429', ({v0 : ((typeof o) != ('undefined')) ? (o) : (undefined)}));
+codealchemist_log_type_pre('-1806912969583290107', ({v1 : ((typeof o) != ('undefined')) ? (o) : (undefined), v2 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+Object.defineProperty(o, '3', ({get : (function (){
+codealchemist_log_type_pre('3173500623868223865', ({v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+(t[0]) = ({});
+codealchemist_log_type_post('3173500623868223865', ({v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('-3421348543306358635', ({v1 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+for(var i = 0;(i) < (100);i++){
+codealchemist_log_type_pre('6925009815258012674', ({v1 : ((typeof i) != ('undefined')) ? (i) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('530864207559555800', ({v1 : ((typeof i) != ('undefined')) ? (i) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+(t[i]) = ({a : i});
+codealchemist_log_type_post('530864207559555800', ({v1 : ((typeof i) != ('undefined')) ? (i) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_post('6925009815258012674', ({v1 : ((typeof i) != ('undefined')) ? (i) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+}
+codealchemist_log_type_post('-3421348543306358635', ({v0 : ((typeof i) != ('undefined')) ? (i) : (undefined), v1 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('769737710434826224', ({}));
+var temp_769737710434826224 = 7;
+codealchemist_log_type_post('769737710434826224', ({}));
+return temp_769737710434826224;
+})}));
+codealchemist_log_type_post('-1806912969583290107', ({v1 : ((typeof o) != ('undefined')) ? (o) : (undefined)}));
+codealchemist_log_type_pre('-6643936033781798768', ({v1 : ((typeof o) != ('undefined')) ? (o) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+(t.__proto__) = o;
+codealchemist_log_type_post('-6643936033781798768', ({v1 : ((typeof o) != ('undefined')) ? (o) : (undefined), v0 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+codealchemist_log_type_pre('-2873575392672305138', ({}));
+var j = [];
+codealchemist_log_type_post('-2873575392672305138', ({v0 : ((typeof j) != ('undefined')) ? (j) : (undefined)}));
+codealchemist_log_type_pre('2959590301734390217', ({v1 : ((typeof j) != ('undefined')) ? (j) : (undefined), v2 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));
+var s = j.join.call(t);
+codealchemist_log_type_post('2959590301734390217', ({v1 : ((typeof j) != ('undefined')) ? (j) : (undefined), v0 : ((typeof s) != ('undefined')) ? (s) : (undefined), v2 : ((typeof t) != ('undefined')) ? (t) : (undefined)}));

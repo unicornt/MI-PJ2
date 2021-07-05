@@ -1,0 +1,28 @@
+import * as std from 'std';
+std.loadScript('/home/bz/unicornt/MI-PJ/CodeAlchemist/bin/jsLib/QUICKJS.js');
+codealchemist_log_type_pre('-6508992359747712148', ({}));
+var a = new Array(0x11111111, 0x22222222, 0x33333333, 0x44444444, 0x12121212, 0x23232323, 0x12345670, 0x7777);
+codealchemist_log_type_post('-6508992359747712148', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined)}));
+codealchemist_log_type_pre('3963403943132440694', ({v3 : ((typeof a) != ('undefined')) ? (a) : (undefined)}));
+var handler = ({getPrototypeOf : (function (target, name){
+codealchemist_log_type_pre('-3444589576563574513', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined)}));
+var temp_3444589576563574513 = a;
+codealchemist_log_type_post('-3444589576563574513', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined)}));
+return temp_3444589576563574513;
+})});
+codealchemist_log_type_post('3963403943132440694', ({v0 : ((typeof handler) != ('undefined')) ? (handler) : (undefined)}));
+codealchemist_log_type_pre('-6080193778140074645', ({v2 : ((typeof handler) != ('undefined')) ? (handler) : (undefined)}));
+var p = new Proxy([], handler);
+codealchemist_log_type_post('-6080193778140074645', ({v2 : ((typeof handler) != ('undefined')) ? (handler) : (undefined), v0 : ((typeof p) != ('undefined')) ? (p) : (undefined)}));
+codealchemist_log_type_pre('-2873575392672305138', ({}));
+var b = [];
+codealchemist_log_type_post('-2873575392672305138', ({v0 : ((typeof b) != ('undefined')) ? (b) : (undefined)}));
+codealchemist_log_type_pre('-6643936033781798768', ({v0 : ((typeof b) != ('undefined')) ? (b) : (undefined), v1 : ((typeof p) != ('undefined')) ? (p) : (undefined)}));
+(b.__proto__) = p;
+codealchemist_log_type_post('-6643936033781798768', ({v0 : ((typeof b) != ('undefined')) ? (b) : (undefined), v1 : ((typeof p) != ('undefined')) ? (p) : (undefined)}));
+codealchemist_log_type_pre('-6924466483125499636', ({v0 : ((typeof b) != ('undefined')) ? (b) : (undefined)}));
+(b.length) = 4;
+codealchemist_log_type_post('-6924466483125499636', ({v0 : ((typeof b) != ('undefined')) ? (b) : (undefined)}));
+codealchemist_log_type_pre('-5504205825729508924', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined), v1 : ((typeof b) != ('undefined')) ? (b) : (undefined)}));
+a.shift.call(b);
+codealchemist_log_type_post('-5504205825729508924', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined), v1 : ((typeof b) != ('undefined')) ? (b) : (undefined)}));

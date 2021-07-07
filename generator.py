@@ -32,7 +32,8 @@ def random_delete(file_id):
     f = open("output_program/" + str(file_id) + ".js", 'w')
     f.write(output)
     f.close()
-    ret = os.popen("node " + "output_program/" + str(file_id) + ".js")
+    ret = os.system("node " + "output_program/" + str(file_id) + ".js")
+    print("--------- " + str(file_id) + " -------------")
     print(ret)
 
 random.seed()

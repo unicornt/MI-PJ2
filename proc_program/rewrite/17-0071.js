@@ -1,5 +1,5 @@
 import * as std from 'std';
-std.loadScript('/home/bz/unicornt/MI-PJ/CodeAlchemist/bin/jsLib/QUICKJS.js');
+std.loadScript('/mnt/c/Users/unicornt/Desktop/0/MI-PJ2/CodeAlchemist/bin/jsLib/QUICKJS.js');
 codealchemist_log_type_pre('8342808253131617512', ({}));
 function func(a, b, c){
 codealchemist_log_type_pre('1125471148517618624', ({v0 : ((typeof a) != ('undefined')) ? (a) : (undefined)}));

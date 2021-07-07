@@ -72,7 +72,9 @@ var codealchemist_types = {
   }
   
   function codealchemist_print (hval, pre, post) {
-    let print = console.log
+    // let file = std.open('output.txt','a+');
+    // let print = file.puts;
+    let print = console.log;
     let s1 = "{ \"hval\": " + hval + ",";
     let s2 = "  \"pre\": " + pre + ",";
     let s3 = "  \"post\": " + post + "}";
@@ -85,14 +87,12 @@ var codealchemist_types = {
   
   function codealchemist_log_type_pre (hval, vars){
     let pre = codealchemist_get_types (vars);
-    console.log(pre);
     if (!(hval in codealchemist_tmps)) codealchemist_tmps[hval] = [];
     codealchemist_tmps[hval].push (pre);
   }
   
   function codealchemist_log_type_post (hval, vars){
     let post = codealchemist_get_types (vars);
-    console.log(post);
     let pre = codealchemist_tmps[hval].pop ();
     let key = pre + post;
     if (pre === undefined || post === undefined) return;

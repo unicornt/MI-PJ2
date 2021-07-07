@@ -33,8 +33,11 @@ def random_delete(file_id):
     f.write(output)
     f.close()
     ret = os.system("node " + "output_program/" + str(file_id) + ".js")
+    ret2 = os.system("/home/bz/unicornt/quickjs/qjs " + "output_program/" + str(file_id) + ".js")
     print("--------- " + str(file_id) + " -------------")
-    print(ret)
+    print(ret, ret2)
+    if ret != ret2:
+        os.system("cp output_program/" + str(file_id) + ".js " + "bug/")
 
 random.seed()
 f = open("output.txt", "r")
